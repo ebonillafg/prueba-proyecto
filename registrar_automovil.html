@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ALTA GAMMA MOTORS - CONCESIONARIO</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/bootstrap-5_2_2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <!-- Logotipo -->
+        <div class="col-md-2 mt-4 text-center">
+          <img src="./assets/img/logotipo_original_150x73.jpg" class="img-fluid" alt="ALTA GAMMA MOTORS">
+        </div>
+        <div class="col-md-8 mt-4 text-center">
+          <!-- Menú superior -->
+          <nav class="navbar navbar-expand-lg bg-light mt-4 navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Quienes somos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Nosotros</a></li>
+                      <li><a class="dropdown-item" href="#">Misión y visión</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nuestras_soluciones.html">Catálogo de autos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login_clientes.html">Acceso clientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login_vendedores.html">Vendedores</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-2 mt-4 text-center">
+          <!-- Iconos redes sociales -->
+          <div class="icono_redes_sup">
+            <i class="bi bi-facebook px-1"></i>
+            <i class="bi bi-youtube px-1"></i>
+            <i class="bi bi-instagram px-1"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="row mt-5">
+      <div class="col">
+        <!-- Slider encabezado -->
+        
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="./assets/img/img_auto_alta_gama_clientes_1000x197.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./assets/img/img_auto_alta_gama_clientes_1000x197.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./assets/img/img_auto_alta_gama_clientes_1000x197.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>   
+  <section class="container my-5">
+    <div class="row">          
+      <div class="col">
+        <div class="franja_roja_zona text-center pt-2">Zona de vendedores</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-lg-12">
+        <form class="container">              
+          <div class="row d-flex justify-content-center">
+            <p class="texto_form_titulo text-center text-center">Registrar vehículo nuevo</p>
+            <div class="col-5 formulario_rojo">
+              <label for="nombre" class="texto_form">Nombre</label>
+              <input type="text" name="nombre" id="nombre"  class="form-control my-3" style="border-color: #cc0000;" required>
+              <div class="valid-feeback">                  
+              </div>
+              <div class="invalid-feedback">
+                Por favor digite su nombre
+              </div>
+              <div class="container_loader"></div>
+              <label for="Modelo" class="texto_form">Modelo</label>
+              <input type="text" name="Modelo" id="Modelo" class="form-control my-3"  style="border-color: #cc0000;" required>
+              <div class="valid-feeback">                  
+              </div>
+              <div class="invalid-feedback">
+                Por favor ingrese el modelo
+              </div>
+              <div class="container_loader"></div>
+              <label for="Color" class="texto_form">Color</label>
+              <input type="text" name="Color" id="Color" class="form-control my-3"  style="border-color: #cc0000;" required>
+              <div class="valid-feeback">                  
+              </div>
+              <div class="invalid-feedback">
+                Por favor ingrese el color
+              </div>
+              <label class="texto_form">Estado</label>
+              <div class="form-check form-check-inline my-3" >
+                <input style="border-color: #cc0000;" required class="form-check-input" type="radio" name="inlineRadioOptions" id="reverseradio1" value="opcion1">
+                <label class="texto_form" for="reverseCheck1">Nuevo</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input style="border-color: #cc0000;" required class="form-check-input" type="radio" name="inlineRadioOptions" id="reverseCheck1" value="option2" >
+                <label class="texto_form" for="reverseCheck1">Usado</label>
+              </div>
+              <label class="texto_form">Categoria</label>
+              <select style="border-color: #cc0000; color:#cc0000; background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 16 16\'%3e%3cpath fill=\'none\' stroke=\'%23ff0000\' stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'m2 5 6 6 6-6\'/%3e%3c/svg%3e')" class="form-select my-3">
+                <option selected>Automóviles Deportivo</option>
+                <option value="1">Camioneta</option>
+                <option value="2">Campero</option>
+                <option value="3">Convertible</option>
+              </select>
+              <div class="container_loader"></div>
+              <label for="nombre" class="texto_form">Placa</label>
+              <input type="text" name="Placa" id="Placa" class="form-control my-3"  style="border-color: #cc0000;" required>
+              <div class="valid-feeback">                  
+              </div>
+              <div class="invalid-feedback">
+                Por favor digite su placa
+              </div>
+              <div class="container_loader"></div>
+              <label for="nombre" class="texto_form">Precio</label>
+              <input type="text" name="Precio" id="Precio" class="form-control my-3"  style="border-color: #cc0000;" required>
+              <div class="valid-feeback">                  
+              </div>
+              <div class="invalid-feedback">
+                Por favor digite su precio
+              </div>
+              <label class="texto_form">Vendedor</label>
+            </button>
+            <select style="border-color: #cc0000; color:#cc0000; background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 16 16\'%3e%3cpath fill=\'none\' stroke=\'%23ff0000\' stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'m2 5 6 6 6-6\'/%3e%3c/svg%3e')" class="form-select my-3">
+              <option selected>Carlos Jimenez</option>
+              <option value="1">Juan Perez</option>
+              <option value="2">Jhon Salazar</option>
+              <option value="3">Henry Fernandez</option>
+            </select>
+            <label for="file-upload" class="texto_form">Imagen</label>
+            <div class="d-inline-block">
+              <label for="file-upload" class="btn boton_formulario my-4 m-auto d-block">Seleccionar archivo</label>
+              <input type="file" id="file-upload" class="d-none" accept="image/png, image/jpeg">
+              <div class="mt-3 text-center">
+                <img id="preview" src="" alt="Imagen seleccionada" class="img-fluid d-none" style="max-width: 300px; display: block;">
+              </div>
+            </div>
+            <div class="container_loader"></div>
+            <button id="boton_formulario" class="btn boton_formulario my-4 m-auto d-block" type="submit">Guardar</button>
+          </div>
+        </form>
+      </div>
+    </div>        
+  </section>              
+  <footer class="container-fluid pie_de_pagina">
+    <div class="row">
+      <div class="col-md-6 mt-4 text-center">
+        Todos los derechos reservados 2025.
+      </div>
+      <div class="col-md-6 mt-4 text-center">
+        <!-- Iconos redes sociales -->
+        <div class="icono_redes_inf">
+          <i class="bi bi-facebook px-1"></i>
+          <i class="bi bi-youtube px-1"></i>
+          <i class="bi bi-instagram px-1"></i>
+        </div>          
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="./assets/bootstrap-5_2_2/dist/js/bootstrap.bundle.js" async defer></script>
+<script>
+  document.getElementById('file-upload').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const preview = document.getElementById('preview');
+        preview.src = e.target.result;
+                    preview.classList.remove('d-none'); // Muestra la imagen
+                  };
+                  reader.readAsDataURL(file);
+                }
+              });
+            </script>
+            </html>

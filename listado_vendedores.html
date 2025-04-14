@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ALTA GAMMA MOTORS - CONCESIONARIO</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/bootstrap-5_2_2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/estilos.css">
+    </head>
+  <body>
+    <header>
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+              <!-- Logotipo -->
+              <div class="col-md-2 mt-4 text-center">
+                  <img src="./assets/img/logotipo_original_150x73.jpg" class="img-fluid" alt="ALTA GAMMA MOTORS">
+              </div>
+              <div class="col-md-8 mt-4 text-center">
+                <!-- Menú superior -->
+                <nav class="navbar navbar-expand-lg bg-light mt-4 navbar-dark">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                      
+                      </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Quienes somos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Nosotros</a></li>
+                              <li><a class="dropdown-item" href="#">Misión y visión</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./nuestras_soluciones.html">Catálogo de autos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./login_clientes.html">Acceso clientes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./login_vendedores.html">Vendedores</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+            <div class="col-md-2 mt-4 text-center">
+              <!-- Iconos redes sociales -->
+              <div class="icono_redes_sup">
+                <i class="bi bi-facebook px-1"></i>
+                <i class="bi bi-youtube px-1"></i>
+                <i class="bi bi-instagram px-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <section>
+    <div class="row mt-5">
+      <div class="col">
+        <!-- Slider encabezado -->
+        
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="./assets/img/img_auto_alta_gama_clientes_1000x197.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./assets/img/img_auto_alta_gama_clientes_1000x197.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="./assets/img/img_auto_alta_gama_clientes_1000x197.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+    
+  <section class="container my-5">
+    <div class="row">          
+      <div class="col-lg-6">
+        <p class="texto_home_titulo" style="font-size: 20px !important; font-weight: 600 !important;">Nuestro Catálogo de Autos</p>
+      </div>
+      <div class="col-lg-3">
+        <div class="franja_roja_zona text-center pt-2" style="margin-left: 50% !important;">Zona de clientes</div>
+      </div>
+      <div class="col-lg-3">
+        <div class="franja_roja_zona text-center pt-2" style="margin-left: 50% !important;">Zona de vendedores</div>
+      </div>
+    </div>
+    <div class="row">
+      <label for="categoria" style="width: 100px; margin-left: 120px; padding-top: 3px; color: #cc0000; font-weight: 600">Categoría: </label>
+      <select class="text-danger select_categorias" name="categoria" id="categoria" style="border-color: #cc0000;;">
+        <option value="Deportivos">Automóviles deportivos</option>
+        <option value="Deportivos">Camionetas</option>
+        <option value="Deportivos">Camperos</option>
+      </select>
+      <a class="boton_registrar_vehiculo text-center" href="./registrar_automovil.html">Registrar un vehículo</a>
+      <a class="boton_actualizar_perfil text-center" href="./actualizar_perfil.html">Actualizar perfil</a>
+    </div>
+    <div class="row" style="width: 100%;">
+      <div class="col-sm-12 col-lg-7 px-5 d-flex justify-content-center">
+        <img class="img rounded-2 shadow mx-5 img_listado" src="./assets/img/img_carro_deportivo_dia_400x240.jpg" alt="">
+      </div>
+      <div class="col-md-12 col-lg-5 d-flex flex-wrap justify-content-start">
+        
+          <table class="table table-sm" style="border-color: #ffffff">
+            <thead>
+              <tr>
+                <p class="texto_auto_titulo">Rayo Zeloz Z25</p>
+              </tr>
+            </thead>
+            <tbody>              
+              <tr>
+                <td><p class="texto_auto_item">Modelo</p></td>
+                <td><p class="texto_listado">Z25 Super sport 300 HP</p></td>
+              </tr>
+              <tr>
+                <td><p class="texto_auto_item">Color</p></td>
+                <td><p class="texto_listado">Rojo pasión</p></td>
+              </tr>
+              <tr>
+                <td><p class="texto_auto_item">Precio</p></td>
+                <td><p class="texto_listado">$300.000.000</p></td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin: 0 auto;"><a class="boton_ver_datos_vendedor" href="./informacion_vendedor.html">Ver datos del vendedor</p></a>
+      </div>      
+    </div>
+    <div class="row" style="width: 100%;">
+      <div class="col-sm-12 col-lg-7 px-5 d-flex justify-content-center">
+        <img class="img rounded-2 shadow mx-5 img_listado" src="./assets/img/img_carro_deportivo_dia_400x240_bordes_redondeados.jpg" alt="">
+      </div>
+      <div class="col-md-12 col-lg-5 d-flex flex-wrap justify-content-start">
+        
+          <table class="table table-sm" style="border-color: #ffffff">
+            <thead>
+              <tr>
+                <p class="texto_auto_titulo">Furia azul M16</p>
+              </tr>
+            </thead>
+            <tbody>              
+              <tr>
+                <td><p class="texto_auto_item">Modelo</p></td>
+                <td><p class="texto_listado">M16 Media sport 350 HP</p></td>
+              </tr>
+              <tr>
+                <td><p class="texto_auto_item">Color</p></td>
+                <td><p class="texto_listado">Azul furia</p></td>
+              </tr>
+              <tr>
+                <td><p class="texto_auto_item">Precio</p></td>
+                <td><p class="texto_listado">$350.000.000</p></td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin: 0 auto;"><a class="boton_ver_datos_vendedor" href="./informacion_vendedor.html">Ver datos del vendedor</p></a>
+      </div>      
+    </div>
+    <div class="row" style="width: 100%;">
+      <div class="col-sm-12 col-lg-7 px-5 d-flex justify-content-center">
+        <img class="img rounded-2 shadow mx-5 img_listado" src="./assets/img/img_carro_deportivo_dia_400x240.jpg" alt="">
+      </div>
+      <div class="col-md-12 col-lg-5 d-flex flex-wrap justify-content-start">
+        
+          <table class="table table-sm" style="border-color: #ffffff">
+            <thead>
+              <tr>
+                <p class="texto_auto_titulo">Yellow Bird X50</p>
+              </tr>
+            </thead>
+            <tbody>              
+              <tr>
+                <td><p class="texto_auto_item">Modelo</p></td>
+                <td><p class="texto_listado">X50 Ultra sport 400 HP</p></td>
+              </tr>
+              <tr>
+                <td><p class="texto_auto_item">Color</p></td>
+                <td><p class="texto_listado">Amarillo Rayo de luz</p></td>
+              </tr>
+              <tr>
+                <td><p class="texto_auto_item">Precio</p></td>
+                <td><p class="texto_listado">$400.000.000</p></td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin: 0 auto;"><a class="boton_ver_datos_vendedor" href="./informacion_vendedor.html">Ver datos del vendedor</p></a>
+      </div>      
+    </div>        
+  </section>              
+  <footer class="container-fluid pie_de_pagina" style="margin-top: 150px;">
+    <div class="row">
+      <div class="col-md-6 mt-4 text-center">
+        Todos los derechos reservados 2025.
+      </div>
+      <div class="col-md-6 mt-4 text-center">
+        <!-- Iconos redes sociales -->
+        <div class="icono_redes_inf">
+          <i class="bi bi-facebook px-1"></i>
+          <i class="bi bi-youtube px-1"></i>
+          <i class="bi bi-instagram px-1"></i>
+        </div>          
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/bootstrap-5_2_2/dist/js/bootstrap.bundle.js" async defer></script>
+  </body>
+</html>
